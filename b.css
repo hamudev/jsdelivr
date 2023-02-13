@@ -1,6 +1,0 @@
-.timer{
-  display:flex;
-}
-.timer h1 + h1:before{
-  content:":"
-}
