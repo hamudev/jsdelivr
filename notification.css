@@ -1,0 +1,36 @@
+.header-notif .widget-content{
+    display:inline-block
+}
+.header-promo .widget{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    -ms-grid-row-align:center;
+    align-items:center;
+    background:$(keycolor);
+    color:#fff;
+    text-transform:uppercase;
+    font-size:11px;
+    font-weight:400;
+    height:32px;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    line-height:1;
+    padding:8px;
+    text-align:center;
+    width:100%;
+    z-index:100;
+    letter-spacing:0
+}
+@media(max-width:480px){
+    .header-notif .widget-content{
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        width:100%;
+        vertical-align:middle
+    }
+}
