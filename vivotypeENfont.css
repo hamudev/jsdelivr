@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'vivotypeEN';
+    src: url('vivotypeEN-Medium.eot');
+    src: url('vivotypeEN-Medium.eot?#iefix') format('embedded-opentype'),
+         url('vivotypeEN-Medium.woff2') format('woff2'),
+         url('vivotypeEN-Medium.woff') format('woff'),
+         url('vivotypeEN-Medium.ttf')  format('truetype'),
+         url('vivotypeEN-Medium.svg#vivotypeEN') format('svg');
+}
